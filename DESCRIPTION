@@ -22,7 +22,7 @@ Imports: bayNorm, baySeq, BiocGenerics, BiocParallel, broom, BPSC, cobs, cowplot
              doParallel, dplyr, DrImpute, EBSeq, edgeR, fastICA, fitdistrplus, foreach, future, ggplot2, ggpubr,
              ggstance, grDevices, grid, Hmisc, iCOBRA, IHW, kernlab, limma, Linnorm, magrittr, MASS, MAST, Matrix,
              matrixStats, methods, minpack.lm, moments, monocle, msir, NBPSeq, NOISeq, nonnest2, parallel, penalized,
-             plotrix, plyr, pscl, qvalue, reshape2, rlang, Rmagic, ROTS, rsvd, Rtsne, RUVSeq, S4Vectors, SAVER,
+             plotrix, plyr, pscl, qvalue, reshape2, rlang, ROTS, rsvd, Rtsne, RUVSeq, S4Vectors, SAVER,
              scales, scater, scDD, scde, SCnorm, scone, scran, sctransform, Seurat, SingleCellExperiment, stats,
              SummarizedExperiment, tibble, tidyr, truncnorm, utils, VGAM, ZIM, zinbwave, zingeR, zoo
 Remotes: nghiavtr/BPSC, cz-ye/DECENT, mohuangx/SAVER, rhondabacher/SCnorm, statOmics/zingeR, bioc::bayNorm,

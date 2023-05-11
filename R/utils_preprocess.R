@@ -469,21 +469,21 @@
   # normalize and transform
   library_size <- rowSums(cnts.filt)
   median_transcript_count <- stats::median(library_size)
-  cnts.norm <- Rmagic::library.size.normalize(data = cnts.filt, verbose = verbose)
+  # cnts.norm <- Rmagic::library.size.normalize(data = cnts.filt, verbose = verbose)
   cnts.sqrt <- sqrt(cnts.norm)
 
-  magic.out <- Rmagic::magic(data = cnts.sqrt,
-                             genes = NULL,
-                             k = 10,
-                             alpha = 15,
-                             t = "auto",
-                             npca = 100,
-                             init = NULL,
-                             t.max = 20,
-                             knn.dist.method = "euclidean",
-                             verbose = verbose,
-                             n.jobs = ncores,
-                             seed = NULL)
+  # magic.out <- Rmagic::magic(data = cnts.sqrt,
+  #                            genes = NULL,
+  #                            k = 10,
+  #                            alpha = 15,
+  #                            t = "auto",
+  #                            npca = 100,
+  #                            init = NULL,
+  #                            t.max = 20,
+  #                            knn.dist.method = "euclidean",
+  #                            verbose = verbose,
+  #                            n.jobs = ncores,
+  #                            seed = NULL)
   # backtransformation
   magic.backtransform <- magic.out^2
   magic.denorm <- magic.backtransform * library_size / median_transcript_count
