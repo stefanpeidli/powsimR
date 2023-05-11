@@ -1,6 +1,6 @@
 
 Install like this:
-R CMD install PATH/TO/LOCAL/CLONE
+`R CMD install PATH/TO/LOCAL/CLONE`
 
 # `powsimR` <br/> Power analysis for bulk and <br/> single cell RNA-seq experiments <img src="vignettes/powsimR.png" align="right" width="200" />
 
